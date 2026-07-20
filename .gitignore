@@ -1,0 +1,22 @@
+# Dataset (large; prepared locally via data/data_prepare_s3dis.py)
+data/S3DIS/
+
+# Experiment outputs (logs, checkpoints, per-run copies)
+exp/
+
+# IDE / editor
+.idea/
+.vscode/
+
+# Python caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Compiled extensions / build artifacts (built via the lib compile scripts)
+build/
+dist/
+*.egg-info/
+*.egg
+*.so
+*.o
